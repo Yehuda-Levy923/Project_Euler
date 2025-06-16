@@ -7,4 +7,5 @@ def smallest_evenly_divisible(num):
     return reduce(lambda a, b: a * b // gcd(a, b), range(1, num + 1))
 
 if __name__ == '__main__':
-    print(smallest_evenly_divisible(20))
+    n = int(input("Enter a number: "))
+    print(smallest_evenly_divisible(n))

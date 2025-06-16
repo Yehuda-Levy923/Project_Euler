@@ -7,4 +7,5 @@ def largest_prime_factor(num):
                 factor += 1
         return num
 if __name__ == '__main__':
-    print(largest_prime_factor(600851475143))
+    n = int(input("Enter a number: "))
+    print(largest_prime_factor(n))
