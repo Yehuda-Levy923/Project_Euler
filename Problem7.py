@@ -1,3 +1,4 @@
+#function to check if a number is prime
 def is_prime(num):
     if num == 2:
         return True
@@ -8,6 +9,7 @@ def is_prime(num):
             return False
     return True
 
+#function to find the Nth prime number
 def nth_prime(num):
     if n == 1:
         return 2
@@ -21,5 +23,5 @@ def nth_prime(num):
         prime += 2
 
 if __name__ == '__main__':
-    n = int(input("Enter a number: "))
-    print(nth_prime(n))
+    n = int(input("Enter a number: "))  #input the number that you want to check the n(your number)th prime
+    print(nth_prime(n)) #printing the numbers prime
