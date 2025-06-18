@@ -11,6 +11,7 @@ This collection was created as part of my ongoing effort to improve my problem-s
 
 ## Repository Structure
 
+- Each 10 Problems are stored in a directory (e.g.,`Problems_1-9`).
 - Each problem is stored in a separate `.py` file (e.g., `Problem1.py`, `Problem2.py`, etc.).
 - Solutions are written in standard Python, with no third-party libraries.
 - Comments are included in the code to clarify the approach and logic behind each solution.
