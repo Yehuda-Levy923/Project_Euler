@@ -1,44 +1,33 @@
-# Project Euler Solutions (Problems 1–100)
+# [Project Euler](https://projecteuler.net/) – Python Solutions (Problems 1–100)
 
-Welcome to my solutions repository for Project Euler challenges, focusing on problems 1 through 100. All solutions are implemented in Python.
+Welcome to this repository containing my Python solutions to the first 100 problems from [Project Euler](https://projecteuler.net/).
 
-> **Note:** Solutions for problems beyond #100 are not included here due to Project Euler's terms of use.
+This collection was created as part of my ongoing effort to improve my problem-solving and programming skills. I’m sharing these solutions to support others working through the same challenges and to encourage discussion and learning within the community.
 
-## About Project Euler
+> **Note:**  
+> In keeping with Project Euler’s policy, solutions are provided only for the first 100 problems to respect the integrity of newer challenges.
 
-[Project Euler](https://projecteuler.net/) is a collection of challenging mathematical/computer programming problems that require creative problem-solving and programming skills.
+---
 
 ## Repository Structure
 
-- Each problem (1–100) is solved in a dedicated Python file.
-- The code is organized for clarity and learning purposes, with comments explaining key steps.
-- Any required utility scripts or shared functions are included in the repo.
+- Each problem is stored in a separate `.py` file (e.g., `Problem1.py`, `Problem2.py`, etc.).
+- Solutions are written in standard Python, with no third-party libraries.
+- Comments are included in the code to clarify the approach and logic behind each solution.
 
-## Getting Started
+---
 
-1. **Clone this repository:**
-   ```bash
-   git clone https://github.com/Yehuda-Levy923/Project_Euler.git
-   ```
-2. **Navigate to the directory:**
-   ```bash
-   cd Project_Euler
-   ```
-3. **Run a solution:**
-   ```bash
-   python problem_1.py
-   ```
-   Replace `problem_1.py` with the desired problem file.
+## Purpose
 
-## Prerequisites
+This project serves as:
 
-- Python 3.x
+- A personal learning archive  
+- A reference for others working through similar problems  
+- A demonstration of clean, readable Python code applied to mathematical and algorithmic challenges
 
-No external dependencies are required for most problems unless otherwise stated in the problem file.
+---
 
-## Contribution
+Thank you for visiting, and best of luck with your own Project Euler journey!
+## Credits
 
-This repository is for personal learning and demonstration purposes. If you have suggestions or spot an issue, feel free to open an issue or pull request.
-
-
-**Disclaimer:** Solutions from problem 101 onwards are private and will not be shared here, in accordance with Project Euler’s terms and conditions.
+Created by Yehuda Levy
