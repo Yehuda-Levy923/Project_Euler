@@ -27,4 +27,4 @@ def permutation_num_is(list_of_digits, num):
 if __name__ == '__main__':
     l = list(input("Enter a list: ")) # the list of digits for permutation checking
     n = int(input("Enter a number: ")) # what number permutation you want in the lexicographic order
-    print(int(permutation_num_is(l,n))) #prints the n-th permutation in lexicographic order on list l
+    print(int(permutation_num_is(l,n - 1))) #prints the n-th permutation in lexicographic order on list l
