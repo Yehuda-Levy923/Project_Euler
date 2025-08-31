@@ -9,14 +9,28 @@ def is_prime(num):
             return False
     return True
 
-from functools import reduce
-def prime1(n):
-    return list(range(2,n))==list((filter(lambda x:n % x!=0,(range(2,n)))))
+# Finds coefficients a and b such that the quadratic n^2 + an + b
+# produces the longest sequence of consecutive primes starting from n = 0, under the given limits for a and b
+def nums_that_satisfy_equation(limit_a, limit_b):
+    longest_consecutives = 0
+    best_a = 0
+    best_b = 0
+    if limit_a%2:
+        limit_a += 1
+    for a in range(-limit_a + 1, limit_a, 2):
+        for b in (b for b in range(2, limit_b) if is_prime(b)):
+            n = 0
+            while is_prime(n**2 + a*n + b):
+                n += 1
+            if n > longest_consecutives:
+                longest_consecutives = n
+                best_a = a
+                best_b = b
 
-def prime2(n):
-    return reduce(lambda x,y:x if n%y!=0 else x+[y],range(2,n),[])==[]
+    return best_a, best_b, best_a*best_b
 
-def prime3(n):
-    return not([x for x in range(2,n) if n%2==0])
-
-print(prime1(9),prime2(9),prime3(9))
+if __name__ == '__main__':
+    n = int(input("enter 2 numbers: "))      # the number which we will find the product of the coefficients
+    m = int(input())                         # of the 2 numbers under n that satisfy the equation
+                                             # n^2 + an + b = the longest consecutive chain of primes
+    print(nums_that_satisfy_equation(n, m))  # prints the coefficients product
