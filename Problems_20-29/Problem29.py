@@ -1,5 +1,5 @@
 # This function generates a list of all distinct values of i^j and j^i for every pair of integers i and j in the ranges
-# [2, a) and [2, b).
+# [2, a) and [2, b)
 def making_all_distinct_squares(a, b):
     all_distinct_squares = []
     for i in range(2,a):
