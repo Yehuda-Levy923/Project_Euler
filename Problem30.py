@@ -13,4 +13,6 @@ def sum_of_all_5th_pow_equal_og():
     return sum(i for i in range(2, 6*9**5) if comparing_og_to_sum_5th_pow(i))
 
 if __name__ == '__main__':
-    print("sum: " + str(sum_of_all_5th_pow_equal_og()))
+    print("sum: " + str(sum_of_all_5th_pow_equal_og())) # prints the all the number which when split
+                                                        # then each part put to the fifth power are the same as they started
+                                                        # and finally prints the sum of them all
