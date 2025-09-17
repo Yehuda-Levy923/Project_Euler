@@ -13,10 +13,13 @@ def hexagonal_numbers(limit):
         all_hexagonal_numbers.add(n*(2*n - 1))
     return all_hexagonal_numbers
 
+# Finds numbers that are both pentagonal and hexagonal
+def find_common_pentagonal_hexagonal(n):
+    pent_set = pentagonal_numbers(n)
+    hex_set = hexagonal_numbers(n)
+    common_numbers = sorted(pent_set.intersection(hex_set))
+    return common_numbers
 
-pent_set = pentagonal_numbers(10000000)
-hex_set = hexagonal_numbers(10000000)
-
-for i in hex_set:
-    if i in pent_set:
-        print(i)
+if __name__ == '__main__':
+    for number in find_common_pentagonal_hexagonal(35000):
+        print(number) # Prints all the pentagonal & hexagonal numbers below the limit
