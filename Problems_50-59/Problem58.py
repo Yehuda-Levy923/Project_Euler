@@ -34,7 +34,6 @@ def is_prime(n, primes):
 
 # Function that finds the side length of the square spiral for which
 # the ratio of primes along both diagonals first falls below a given threshold (ratio)
-
 def spiral_prime_ratio(ratio):
     side_length = 1
     prime_count = 0
