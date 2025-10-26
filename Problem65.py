@@ -19,5 +19,6 @@ def approx_e(depth):
     return sum_of_digits(numerator)
 
 
-
-print(approx_e(100))
+if __name__ == '__main__':
+    n = int(input("Enter the depth: "))  # Inputs the depth that you want to check until for e
+    print(approx_e(n)) # Prints the sum of the digits of the numerator for the approximation of e to the nth depth
