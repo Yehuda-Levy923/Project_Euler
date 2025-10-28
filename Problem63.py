@@ -15,4 +15,4 @@ def check_all_plausible():
 
 
 if __name__ == '__main__':
-    print(check_all_plausible())
+    print(check_all_plausible()) # Prints how many n-digit positive integers exist which are also an nth power
