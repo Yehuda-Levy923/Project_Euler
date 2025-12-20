@@ -4,19 +4,16 @@ Welcome to this repository containing my Python solutions to the first 100 probl
 
 This collection was created as part of my ongoing effort to improve my problem-solving and programming skills. I’m sharing these solutions to support others working through the same challenges and to encourage discussion and learning within the community.
 
-> **Note:**  
-> In keeping with Project Euler’s policy, solutions are provided only for the first 100 problems to respect the integrity of newer challenges.
+In keeping with Project Euler’s policy, solutions are provided only for the first 100 problems to respect the integrity of newer challenges.
 
----
 
 ## Repository Structure
-
+- All 100 Problems are stored in a directory (`Problems_1-100`).
 - Each 10 Problems are stored in a directory (e.g.,`Problems_1-9`).
 - Each problem is stored in a separate `.py` file (e.g., `Problem1.py`, `Problem2.py`, etc.).
 - Solutions are written in standard Python, with no third-party libraries.
 - Comments are included in the code to clarify the approach and logic behind each solution.
 
----
 
 ## Purpose
 
@@ -26,7 +23,6 @@ This project serves as:
 - A reference for others working through similar problems  
 - A demonstration of clean, readable Python code applied to mathematical and algorithmic challenges
 
----
 
 Thank you for visiting, and best of luck with your own Project Euler journey!
 ## Credits
