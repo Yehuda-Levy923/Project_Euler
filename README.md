@@ -28,3 +28,7 @@ Thank you for visiting, and best of luck with your own Project Euler journey!
 ## Credits
 
 Created by Yehuda Levy
+
+[<img width="200" height="60" alt="yehudalevy123" src="https://github.com/user-attachments/assets/dfd457fe-f16c-42fa-8327-9d7ceb22c876" />](https://projecteuler.net/friends)
+
+Friend key - 2250953_WtWwPQGLDI1tIR82a58RuYDfZtvrJvM7
